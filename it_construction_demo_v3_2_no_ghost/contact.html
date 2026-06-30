@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact IronTide Constructors for construction bids in South Louisiana." />
+  <title>Contact | IronTide Constructors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary navigation">
+      <a class="brand" href="index.html">
+        <img src="assets/logo.png" alt="IronTide Constructors logo" />
+        <span><strong>IronTide</strong><b>Constructors</b></span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a  href="index.html">Home</a></li>
+        <li><a  href="services.html">Services</a></li>
+        <li><a  href="projects.html">Projects</a></li>
+        <li><a aria-current="page" href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <a class="phone-pill" href="tel:+13375550174">(337) 555-0174</a>
+        <button class="theme-toggle" type="button" aria-pressed="false">Dark Mode</button>
+      </div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact the team</p>
+        <h1>Send the scope. We’ll help shape the next step.</h1>
+        <p>Use the form, call, or send a regular text message to begin the conversation.</p>
+      </div>
+    </section>
+
+    <section class="section-pad">
+      <div class="container contact-grid">
+        <form class="contact-form" aria-label="Construction project contact form">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required />
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+          <label for="message">Project Details</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <button class="btn primary" type="submit">Send Request</button>
+        </form>
+        <aside class="contact-card" aria-label="Company contact information">
+          <h2>IronTide Constructors</h2>
+          <p><strong>Phone:</strong> <a href="tel:+13375550174">(337) 555-0174</a></p>
+          <p><strong>Message:</strong> <a href="sms:+13375550174">Send a normal text message</a></p>
+          <p><strong>Service Area:</strong> South Louisiana and nearby Gulf region projects.</p>
+          <div class="map" role="img" aria-label="Embedded map placeholder for Lafayette, Louisiana">
+            <iframe title="Map showing Lafayette, Louisiana" src="https://www.google.com/maps?q=Lafayette,+LA&output=embed" loading="lazy"></iframe>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>© 2026 IronTide Constructors. Demo website by HDMT Studio.</p>
+      <p><a href="tel:+13375550174">(337) 555-0174</a> · <a href="contact.html">Contact</a></p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

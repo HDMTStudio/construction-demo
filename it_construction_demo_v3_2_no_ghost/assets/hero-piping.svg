@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Piping division background">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#15110f"/>
+      <stop offset="0.55" stop-color="#78272a"/>
+      <stop offset="1" stop-color="#d9c7b8"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="rgba(255,255,255,.12)" stroke-width="2"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#grid)" opacity=".65"/>
+  <g opacity=".78" stroke="#fff" stroke-width="18" stroke-linecap="round" fill="none">
+    <path d="M130 720 L440 410 L710 590 L1020 260 L1440 620"/>
+    <path d="M250 730 H1420"/>
+    <path d="M350 690 V330 M550 690 V430 M750 690 V360 M950 690 V280 M1150 690 V400 M1350 690 V520" opacity=".65"/>
+  </g>
+</svg>
